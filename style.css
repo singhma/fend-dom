@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+h1{
+    color: red;
+}
+
+.main {
+    width: 400px;
+    height: 200px;
+    background-color: aqua;
+}
+
+#practice{
+    width: 600px;
+    height: 200px;
+    overflow: hidden;
+    background-color: red;
+}
+#child{
+    height: 100vh;
+    width: 100vw;
+    background-color: green;
+}
+
+h1{
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1vw;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: underline; */
+    /* line-height: 1; */
+    text-align: justify;
+}
+
+#box{
+    padding: 30px 10px 20px 10px;
+    width: 600px;
+    height: 300px;
+    background-color: red;
+    border: 3px solid black;
+    border-radius: 300px;
+    
+}
