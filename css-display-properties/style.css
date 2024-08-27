@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 3000px;
+}
+#car1{
+    width: 10px;
+    height: 140px;
+    background-color: red;
+}
+
+#car2{
+    position: absolute;
+    width: 80px;
+    height: 120px;
+    background-color: green;
+}
+#car3{
+    position:absolute;
+    width: 105px;
+    height: 90px;
+    background-color: red;
+}
+
+#box{
+    width: 300px;
+    height: 300px;
+    /* background: url(https://images.unsplash.com/photo-1723843038784-ba892b252323?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center; */
+    background: linear-gradient(to right bottom,red, yellow,grey);
+    
+}
+
+/* #cube{
+    position: absolute;
+    width: 30px;
+    left: 10%;
+    height: 30px;
+    background-color: green;
+} */
